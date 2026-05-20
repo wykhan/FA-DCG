@@ -1,0 +1,90 @@
+在我看来 lightFADC的结构实现问题太多。问题1 FADC效果在特征提取层面，插入位置应该在靠前的位置，而不是中部;问题2 delation 不
+  能求导数，算梯度，相当于完全没起作用
+  
+  
+   LightFADC，也就是现在标记为 FA-DCG V1.0 的实现，主要问题不是思想本身，而是代码实现和工程结构有明显缺陷。
+
+  1. 逐通道 Python 循环，训练/推理效率很差
+
+  V1.0 在 forward 里对每个 channel 单独做一次卷积：
+
+  for c in range(C):
+      out_c = F.conv2d(...)
+
+  这会导致 512、1024、4096 通道时分别触发大量 Python-level 调度。尤其 FCN 里还有 4096 通道 FA-DCG，开销非常大。
+
+  结果也能看到：
+
+  ┌────────────────┬──────────────┬──────────────┐
+  │ Model          │ V1.0 latency │ V1.1 latency │
+  ├────────────────┼──────────────┼──────────────┤
+  │ FCN + FA-DCG   │   214.826 ms │     8.317 ms │
+  │ U-Net + FA-DCG │    65.931 ms │    20.350 ms │
+  └────────────────┴──────────────┴──────────────┘
+
+  2. dilation 参数不可微，所谓“可学习膨胀率”没有真正学习
+
+  V1.0 写法里有：
+
+  d = int(dilation[c].item())
+
+  .item() 会把 tensor 转成 Python 标量，梯度被切断；int() 又进一步离散化。结果是 dilation_param 虽然是 nn.Parameter，但不会通
+  过 dilation 选择形成有效梯度。
+
+  因此 V1.0 的“频率自适应 dilation”在实现上并不成立。实际更接近：
+
+  固定 dilation=1 的 depthwise convolution
+  + channel gate
+  + residual alpha
+
+  3. FCN 版本在 forward 里动态创建模块
+
+  V1.0 的 FCN 有：
+
+  if not hasattr(self, 'up_dim'):
+      self.up_dim = nn.Conv2d(512, 4096, 1)
+
+  这属于严重工程问题：
+
+  - optimizer 创建时可能看不到这个参数；
+  - checkpoint 保存/加载不稳定；
+  - 多 GPU、模型导出、复现实验都容易出问题；
+  - 第一次 forward 前后模型参数集合不一致。
+
+  4. FCN 的 4096 通道 FA-DCG 极重
+
+  V1.0 FCN 里有：
+
+  FA-DCG(512, k=7)
+  up_dim 512 -> 4096
+  FA-DCG(4096, k=1)
+
+  4096 通道上的逐通道循环虽然 kernel 是 1，但仍然要做 4096 次小卷积调用，调度成本很高。这是 FCN 版本特别慢的核心原因。
+
+  5. V1.0 的论文叙述和实际代码行为存在偏差
+
+  论文思想是：
+
+  channel-wise dilation preference
+  + frequency-aware receptive field adaptation
+  + response-selective gating
+
+  但代码里 dilation preference 因 .item() 和 int() 不可微，实际训练中主要贡献来自：
+
+  depthwise feature enhancement
+  + channel gate
+  + residual fusion
+
+  这不代表 FA-DCG 思想无效，但说明 V1.0 的实现不能完全支撑“可学习 dilation 自适应”的强表述。
+
+  6. 可维护性差，不利于后续扩展
+
+  V1.0 的 FCN/U-Net 各自复制了一份 LightFADC，逻辑重复；同时 FCN 又有动态模块创建。后续如果要做 FA-DCG V2、频率条件分支、软
+  dilation 或诊断统计，基于 V1.0 继续改会很容易引入新问题。
+
+  所以我之前建议的结论是：
+
+  FA-DCG V1.0 = 原始实验参考版本
+  FA-DCG V1.1 = 后续实验基线版本
+
+  V1.1 的价值在于：不改变原始有效计算路径，只把 V1.0 的低效和不稳定实现修正掉。
