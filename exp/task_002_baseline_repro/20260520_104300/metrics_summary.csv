@@ -1,0 +1,5 @@
+method,miou_mean,miou_std,dice_mean,dice_std,params_m,flops_g,inference_time_ms,gpu_memory_mb,delta_miou_vs_manuscript,delta_dice_vs_manuscript,status
+FCN,0.656403,0.007421,0.762888,0.007055,134.2719,NA,1.292,3370.6,0.024503,0.023888,reproduced
+U-Net,0.883401,0.009847,0.932461,0.006133,31.0424,NA,2.560,3239.6,0.178601,0.143061,not_reproduced
+FCN + FA-DCG,0.844849,0.000000,0.907507,0.000000,144.9324,NA,31.819,2207.1,0.020549,0.012607,reproduced
+U-Net + FA-DCG,0.896663,0.000000,0.941023,0.000000,31.5782,NA,9.826,3264.4,0.018463,0.012123,reproduced

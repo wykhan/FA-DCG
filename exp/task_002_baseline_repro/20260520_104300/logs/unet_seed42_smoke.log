@@ -1,0 +1,2 @@
+method=U-Net, seed=42, smoke=True
+epoch=0, train_loss=0.598553, val_miou=0.241098, val_dice=0.650651, infer_ms=2.270

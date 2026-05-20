@@ -1,0 +1,9 @@
+method,seed,miou,dice,params_m,flops_g,inference_time_ms,gpu_memory_mb,best_epoch,notes
+FCN,42,0.648906,0.755046,134.2719,NA,1.311,3370.6,38,validation split used; no independent test split present
+FCN,123,0.656558,0.764898,134.2719,NA,1.277,3370.6,48,validation split used; no independent test split present
+FCN,2024,0.663746,0.768719,134.2719,NA,1.288,3370.6,49,validation split used; no independent test split present
+U-Net,42,0.873083,0.926146,31.0424,NA,2.586,3239.6,42,validation split used; no independent test split present
+U-Net,123,0.884423,0.932842,31.0424,NA,2.546,3239.6,41,validation split used; no independent test split present
+U-Net,2024,0.892698,0.938395,31.0424,NA,2.549,3239.6,37,validation split used; no independent test split present
+FCN + FA-DCG,2024,0.844849,0.907507,144.9324,NA,31.819,2207.1,41,validation split used; no independent test split present
+U-Net + FA-DCG,2024,0.896663,0.941023,31.5782,NA,9.826,3264.4,41,validation split used; no independent test split present
