@@ -1,0 +1,9 @@
+from models.improved.fcn_fadc_light import FCNWithLightFADC
+from models.improved.fcn_fadc_optimized import FCNWithOptimizedFADCG
+from models.improved.unet_fadc_light import UNetWithLightFADC
+from models.improved.unet_fadc_optimized import UNetWithOptimizedFADCG
+
+FA_DCG_V1_0_FCN = FCNWithLightFADC
+FA_DCG_V1_0_UNET = UNetWithLightFADC
+FA_DCG_V1_1_FCN = FCNWithOptimizedFADCG
+FA_DCG_V1_1_UNET = UNetWithOptimizedFADCG

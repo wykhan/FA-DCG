@@ -11,7 +11,7 @@ from models.baseline.unet import UNet
 
 class LightFADC(nn.Module):
     """
-    轻量级频率感知卷积模块（Lightweight Frequency-Aware Dilated Convolution）
+    FA-DCG V1.0 轻量级频率感知卷积模块（Lightweight Frequency-Aware Dilated Convolution）
     与FCN版本保持一致
     """
 
@@ -70,7 +70,7 @@ class LightFADC(nn.Module):
 
 class UNetWithLightFADC(UNet):
     """
-    U-Net + 轻量级频率感知卷积模块
+    U-Net + FA-DCG V1.0 轻量级频率感知卷积模块
     在bottleneck后插入Light-FADC模块
     """
 

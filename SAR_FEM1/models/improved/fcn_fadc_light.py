@@ -12,7 +12,7 @@ from models.baseline.fcn import FCN
 
 class LightFADC(nn.Module):
     """
-    轻量级频域自适应卷积模块
+    FA-DCG V1.0 轻量级频域自适应卷积模块
     输入输出通道数相同
     """
 
@@ -72,7 +72,7 @@ class LightFADC(nn.Module):
 
 class FCNWithLightFADC(FCN):
     """
-    FCN + 轻量级FADC
+    FCN + FA-DCG V1.0
     """
 
     def __init__(self, in_channels=1, num_classes=1):

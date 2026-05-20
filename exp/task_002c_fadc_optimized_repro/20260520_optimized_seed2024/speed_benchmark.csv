@@ -1,0 +1,5 @@
+method,implementation,batch_size,img_size,params_m,inference_time_ms,gpu_memory_mb,notes
+FCN + old FA-DCG,old,8,256,144.9324,214.826,939.9,full-batch latency; benchmark uses random input
+FCN + Optimized FA-DCG,optimized,8,256,144.9324,8.317,939.4,full-batch latency; benchmark uses random input
+U-Net + old FA-DCG,old,8,256,31.5782,65.931,1004.4,full-batch latency; benchmark uses random input
+U-Net + Optimized FA-DCG,optimized,8,256,31.5782,20.350,1003.9,full-batch latency; benchmark uses random input

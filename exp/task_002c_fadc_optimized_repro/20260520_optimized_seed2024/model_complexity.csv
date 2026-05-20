@@ -1,0 +1,3 @@
+method,implementation,params_m,delta_params_m_vs_old,delta_params_percent_vs_old,flops_g,benchmark_inference_time_ms,gpu_memory_mb
+FCN + Optimized FA-DCG,optimized,144.9324,0.0000,0.00,NA,8.317,939.4
+U-Net + Optimized FA-DCG,optimized,31.5782,0.0000,0.00,NA,20.350,1003.9
