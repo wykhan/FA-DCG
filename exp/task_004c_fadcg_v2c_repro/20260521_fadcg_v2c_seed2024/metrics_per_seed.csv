@@ -1,0 +1,3 @@
+method,implementation,seed,miou,dice,params_m,flops_g,inference_time_ms,gpu_memory_mb,best_epoch,notes
+FCN + FA-DCG V2c,v2c,2024,0.846577,0.908685,145.0154,NA,1.083,2253.9,49,validation split used; Selected Backbone-Aware Frequency Refinement
+U-Net + FA-DCG V2c,v2c,2024,0.891023,0.936816,31.8010,NA,2.703,3545.1,43,validation split used; Selected Backbone-Aware Frequency Refinement
