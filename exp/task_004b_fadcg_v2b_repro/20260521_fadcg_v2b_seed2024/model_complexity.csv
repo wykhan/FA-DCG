@@ -1,0 +1,3 @@
+method,implementation,params_m,delta_params_m_vs_v1_1,delta_params_percent_vs_v1_1,flops_g,benchmark_inference_time_ms,gpu_memory_mb
+FCN + FA-DCG V2b,v2b,145.2780,0.3456,0.24,NA,9.125,940.4
+U-Net + FA-DCG V2b,v2b,31.6550,0.0768,0.24,NA,20.989,1003.8

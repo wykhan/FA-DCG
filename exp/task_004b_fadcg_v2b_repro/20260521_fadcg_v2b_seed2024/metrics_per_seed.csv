@@ -1,0 +1,3 @@
+method,implementation,seed,miou,dice,params_m,flops_g,inference_time_ms,gpu_memory_mb,best_epoch,notes
+FCN + FA-DCG V2b,v2b,2024,0.842661,0.906207,145.2780,NA,1.205,2347.9,45,validation split used; Frequency-Biased Dilation Preference
+U-Net + FA-DCG V2b,v2b,2024,0.892354,0.937855,31.6550,NA,2.644,3400.6,49,validation split used; Frequency-Biased Dilation Preference
