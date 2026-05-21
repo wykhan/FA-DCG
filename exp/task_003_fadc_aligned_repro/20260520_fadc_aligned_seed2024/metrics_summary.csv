@@ -1,0 +1,3 @@
+method,implementation,miou_mean,miou_std,dice_mean,dice_std,params_m,inference_time_ms,gpu_memory_mb,delta_miou_vs_v1_1,delta_dice_vs_v1_1,delta_time_vs_v1_1,status
+FCN + FADC,fadc_aligned,0.663577,0.000000,0.771850,0.000000,134.3209,1.448,3505.5,-0.179227,-0.134003,-6.869,underperforming
+U-Net + FADC,fadc_aligned,0.887575,0.000000,0.934839,0.000000,31.0913,3.008,3766.0,-0.004886,-0.003259,-17.342,aligned_and_comparable
