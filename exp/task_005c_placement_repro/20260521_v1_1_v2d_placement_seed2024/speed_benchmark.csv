@@ -1,0 +1,9 @@
+method,architecture,block,placement,batch_size,img_size,params_m,inference_time_ms,gpu_memory_mb,notes
+FCN + V1.1 after conv3,fcn,v1.1,after_conv3,8,256,134.3076,10.489,912.8,full-batch latency; benchmark uses random input
+FCN + V1.1 after conv4,fcn,v1.1,after_conv4,8,256,134.4088,10.422,912.3,full-batch latency; benchmark uses random input
+FCN + V2d after conv3,fcn,v2d,after_conv3,8,256,134.3194,10.775,911.9,full-batch latency; benchmark uses random input
+FCN + V2d after conv4,fcn,v2d,after_conv4,8,256,134.4323,10.556,912.4,full-batch latency; benchmark uses random input
+U-Net + V1.1 after encoder2,unet,v1.1,after_encoder2,8,256,31.0520,22.101,1002.3,full-batch latency; benchmark uses random input
+U-Net + V1.1 after encoder3,unet,v1.1,after_encoder3,8,256,31.0780,21.642,1001.6,full-batch latency; benchmark uses random input
+U-Net + V2d after encoder2,unet,v2d,after_encoder2,8,256,31.0579,27.898,1145.7,full-batch latency; benchmark uses random input
+U-Net + V2d after encoder3,unet,v2d,after_encoder3,8,256,31.0898,24.178,1001.7,full-batch latency; benchmark uses random input

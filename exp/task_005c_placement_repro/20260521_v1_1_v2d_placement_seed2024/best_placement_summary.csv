@@ -1,0 +1,5 @@
+architecture,block,best_method,best_placement,best_miou,best_dice,accepted_original_miou,delta_miou_vs_accepted_original,local_original_miou,delta_miou_vs_local_original,recommendation
+fcn,v1.1,FCN + V1.1 after conv3,after_conv3,0.653409,0.756980,0.842804,-0.189395,0.844849,-0.191440,keep_original_or_retest
+fcn,v2d,FCN + V2d after conv3,after_conv3,0.660667,0.765494,0.845975,-0.185308,0.845975,-0.185308,keep_original_or_retest
+unet,v1.1,U-Net + V1.1 after encoder3,after_encoder3,0.888685,0.936085,0.892461,-0.003776,0.896663,-0.007978,keep_original_or_retest
+unet,v2d,U-Net + V2d after encoder3,after_encoder3,0.888610,0.936217,0.893472,-0.004862,0.893472,-0.004862,keep_original_or_retest

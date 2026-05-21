@@ -1,0 +1,9 @@
+method,architecture,block,placement,seed,miou,dice,params_m,flops_g,inference_time_ms,gpu_memory_mb,best_epoch,notes
+FCN + V1.1 after conv3,fcn,v1.1,after_conv3,2024,0.653409,0.756980,134.3076,NA,1.287,3386.6,36,validation split used; one early/mid FA-DCG placement block
+FCN + V1.1 after conv4,fcn,v1.1,after_conv4,2024,0.651189,0.756623,134.4088,NA,1.277,3405.5,48,validation split used; one early/mid FA-DCG placement block
+FCN + V2d after conv3,fcn,v2d,after_conv3,2024,0.660667,0.765494,134.3194,NA,1.357,3520.6,48,validation split used; one early/mid FA-DCG placement block
+FCN + V2d after conv4,fcn,v2d,after_conv4,2024,0.653649,0.757387,134.4323,NA,1.284,3404.7,49,validation split used; one early/mid FA-DCG placement block
+U-Net + V1.1 after encoder2,unet,v1.1,after_encoder2,2024,0.885331,0.933787,31.0520,NA,2.753,3368.2,46,validation split used; one early/mid FA-DCG placement block
+U-Net + V1.1 after encoder3,unet,v1.1,after_encoder3,2024,0.888685,0.936085,31.0780,NA,2.604,3304.8,38,validation split used; one early/mid FA-DCG placement block
+U-Net + V2d after encoder2,unet,v2d,after_encoder2,2024,0.880935,0.931215,31.0579,NA,3.638,4455.5,35,validation split used; one early/mid FA-DCG placement block
+U-Net + V2d after encoder3,unet,v2d,after_encoder3,2024,0.888610,0.936217,31.0898,NA,3.019,3846.4,41,validation split used; one early/mid FA-DCG placement block

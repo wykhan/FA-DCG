@@ -1,0 +1,9 @@
+method,architecture,block,placement,miou_mean,miou_std,dice_mean,dice_std,params_m,inference_time_ms,gpu_memory_mb,accepted_original_miou,delta_miou_vs_accepted_original,local_original_miou,delta_miou_vs_local_original,status
+FCN + V1.1 after conv3,fcn,v1.1,after_conv3,0.653409,0.000000,0.756980,0.000000,134.3076,1.287,3386.6,0.842804,-0.189395,0.844849,-0.191440,under_accepted_original
+FCN + V1.1 after conv4,fcn,v1.1,after_conv4,0.651189,0.000000,0.756623,0.000000,134.4088,1.277,3405.5,0.842804,-0.191615,0.844849,-0.193660,under_accepted_original
+FCN + V2d after conv3,fcn,v2d,after_conv3,0.660667,0.000000,0.765494,0.000000,134.3194,1.357,3520.6,0.845975,-0.185308,0.845975,-0.185308,under_accepted_original
+FCN + V2d after conv4,fcn,v2d,after_conv4,0.653649,0.000000,0.757387,0.000000,134.4323,1.284,3404.7,0.845975,-0.192326,0.845975,-0.192326,under_accepted_original
+U-Net + V1.1 after encoder2,unet,v1.1,after_encoder2,0.885331,0.000000,0.933787,0.000000,31.0520,2.753,3368.2,0.892461,-0.007130,0.896663,-0.011332,under_accepted_original
+U-Net + V1.1 after encoder3,unet,v1.1,after_encoder3,0.888685,0.000000,0.936085,0.000000,31.0780,2.604,3304.8,0.892461,-0.003776,0.896663,-0.007978,comparable_to_accepted_original
+U-Net + V2d after encoder2,unet,v2d,after_encoder2,0.880935,0.000000,0.931215,0.000000,31.0579,3.638,4455.5,0.893472,-0.012537,0.893472,-0.012537,under_accepted_original
+U-Net + V2d after encoder3,unet,v2d,after_encoder3,0.888610,0.000000,0.936217,0.000000,31.0898,3.019,3846.4,0.893472,-0.004862,0.893472,-0.004862,comparable_to_accepted_original
