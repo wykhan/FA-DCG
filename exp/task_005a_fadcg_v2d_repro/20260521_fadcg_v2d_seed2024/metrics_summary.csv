@@ -1,0 +1,3 @@
+method,implementation,miou_mean,miou_std,dice_mean,dice_std,params_m,inference_time_ms,gpu_memory_mb,delta_miou_vs_v1_1,delta_dice_vs_v1_1,delta_time_vs_v1_1,status
+FCN + FA-DCG V2d,v2d,0.845975,0.000000,0.908181,0.000000,145.1444,1.225,2345.9,0.003171,0.002328,-7.092,v2d_better
+U-Net + FA-DCG V2d,v2d,0.893472,0.000000,0.938617,0.000000,31.6253,2.645,3399.8,0.001011,0.000519,-17.705,v2d_better
