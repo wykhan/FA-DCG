@@ -1,0 +1,5 @@
+method,implementation,seed,miou,dice,params_m,flops_g,inference_time_ms,gpu_memory_mb,best_epoch,notes
+FCN + FA-DCG V2d,v2d,42,0.839030,0.902706,145.1444,NA,1.197,2349.4,45,validation split used; Speckle-Robust Frequency Gate
+FCN + FA-DCG V2d,v2d,123,0.843324,0.906289,145.1444,NA,1.176,2347.6,43,validation split used; Speckle-Robust Frequency Gate
+U-Net + FA-DCG V2d,v2d,42,0.885457,0.934086,31.6253,NA,2.603,3397.9,37,validation split used; Speckle-Robust Frequency Gate
+U-Net + FA-DCG V2d,v2d,123,0.895623,0.940014,31.6253,NA,2.609,3397.9,45,validation split used; Speckle-Robust Frequency Gate

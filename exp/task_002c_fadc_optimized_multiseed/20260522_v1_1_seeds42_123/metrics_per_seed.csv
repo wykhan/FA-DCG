@@ -1,0 +1,5 @@
+method,seed,miou,dice,params_m,flops_g,inference_time_ms,gpu_memory_mb,best_epoch,notes
+FCN + Optimized FA-DCG,42,0.842698,0.905559,144.9324,NA,1.142,2199.4,48,validation split used; no independent test split present
+FCN + Optimized FA-DCG,123,0.845480,0.907773,144.9324,NA,1.037,2198.4,49,validation split used; no independent test split present
+U-Net + Optimized FA-DCG,42,0.889572,0.936781,31.5782,NA,2.512,3261.6,37,validation split used; no independent test split present
+U-Net + Optimized FA-DCG,123,0.893001,0.938264,31.5782,NA,2.587,3261.1,43,validation split used; no independent test split present

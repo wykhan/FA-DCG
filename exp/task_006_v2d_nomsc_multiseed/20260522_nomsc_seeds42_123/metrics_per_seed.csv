@@ -1,0 +1,5 @@
+architecture,variant,method,seed,miou,dice,params_m,flops_g,inference_time_ms,gpu_memory_mb,best_epoch,notes
+fcn,no_msc,FCN + V2d no_msc,42,0.835672,0.901421,145.0614,NA,1.173,2320.0,42,validation split used; task_006 V2d ablation
+fcn,no_msc,FCN + V2d no_msc,123,0.846960,0.909384,145.0614,NA,1.168,2319.1,43,validation split used; task_006 V2d ablation
+unet,no_msc,U-Net + V2d no_msc,42,0.888316,0.935594,31.6069,NA,2.507,3374.7,38,validation split used; task_006 V2d ablation
+unet,no_msc,U-Net + V2d no_msc,123,0.893497,0.938788,31.6069,NA,2.563,3374.7,45,validation split used; task_006 V2d ablation
