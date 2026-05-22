@@ -1,0 +1,17 @@
+architecture,variant,method,miou_mean,miou_std,dice_mean,dice_std,params_m,inference_time_ms,gpu_memory_mb,delta_miou_vs_full_v2d,delta_dice_vs_full_v2d,delta_params_vs_full_v2d,status
+fcn,full,FCN + V2d full,0.845375,0.000000,0.907630,0.000000,145.1444,1.184,2346.9,0.000000,0.000000,0.0000,full_reference
+fcn,no_channel,FCN + V2d no_channel,0.836355,0.000000,0.901098,0.000000,136.6189,1.153,2266.2,-0.009020,-0.006532,-8.5255,important_drop
+fcn,no_boundary,FCN + V2d no_boundary,0.843355,0.000000,0.906143,0.000000,145.0568,1.196,2308.6,-0.002020,-0.001487,-0.0876,slightly_worse_but_simpler
+fcn,no_speckle,FCN + V2d no_speckle,0.843500,0.000000,0.906690,0.000000,145.0154,1.150,2262.3,-0.001875,-0.000940,-0.1290,slightly_worse_but_simpler
+fcn,no_boundary_no_speckle,FCN + V2d no_boundary_no_speckle,0.844877,0.000000,0.907139,0.000000,144.9278,1.094,2207.8,-0.000498,-0.000491,-0.2166,equivalent_to_full
+fcn,no_all_gates,FCN + V2d no_all_gates,0.840829,0.000000,0.904586,0.000000,136.4024,1.084,2119.5,-0.004546,-0.003044,-8.7420,important_drop
+fcn,no_msc,FCN + V2d no_msc,0.848363,0.000000,0.910157,0.000000,145.0614,1.146,2316.7,0.002988,0.002527,-0.0830,better_than_full
+fcn,no_local_var,FCN + V2d no_local_var,0.845585,0.000000,0.907911,0.000000,145.1029,1.200,2300.2,0.000210,0.000281,-0.0415,equivalent_to_full
+unet,full,U-Net + V2d full,0.893472,0.000000,0.938617,0.000000,31.6253,2.663,3397.9,0.000000,0.000000,0.0000,full_reference
+unet,no_channel,U-Net + V2d no_channel,0.889718,0.000000,0.936340,0.000000,31.0997,2.531,3407.3,-0.003754,-0.002277,-0.5256,important_drop
+unet,no_boundary,U-Net + V2d no_boundary,0.894634,0.000000,0.939136,0.000000,31.6058,2.542,3365.7,0.001162,0.000519,-0.0195,better_than_full
+unet,no_speckle,U-Net + V2d no_speckle,0.888433,0.000000,0.935235,0.000000,31.5966,2.525,3326.5,-0.005039,-0.003382,-0.0287,important_drop
+unet,no_boundary_no_speckle,U-Net + V2d no_boundary_no_speckle,0.892461,0.000000,0.938098,0.000000,31.5772,2.493,3277.2,-0.001011,-0.000519,-0.0481,slightly_worse_but_simpler
+unet,no_all_gates,U-Net + V2d no_all_gates,0.890295,0.000000,0.936652,0.000000,31.0516,2.534,3280.2,-0.003177,-0.001965,-0.5737,important_drop
+unet,no_msc,U-Net + V2d no_msc,0.895189,0.000000,0.939710,0.000000,31.6069,2.527,3375.7,0.001717,0.001093,-0.0184,better_than_full
+unet,no_local_var,U-Net + V2d no_local_var,0.897975,0.000000,0.941652,0.000000,31.6161,2.512,3358.8,0.004503,0.003035,-0.0092,better_than_full

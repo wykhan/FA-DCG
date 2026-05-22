@@ -1,0 +1,17 @@
+architecture,variant,method,seed,miou,dice,params_m,flops_g,inference_time_ms,gpu_memory_mb,best_epoch,notes
+fcn,full,FCN + V2d full,2024,0.845375,0.907630,145.1444,NA,1.184,2346.9,41,validation split used; task_006 V2d ablation
+fcn,no_channel,FCN + V2d no_channel,2024,0.836355,0.901098,136.6189,NA,1.153,2266.2,41,validation split used; task_006 V2d ablation
+fcn,no_boundary,FCN + V2d no_boundary,2024,0.843355,0.906143,145.0568,NA,1.196,2308.6,49,validation split used; task_006 V2d ablation
+fcn,no_speckle,FCN + V2d no_speckle,2024,0.843500,0.906690,145.0154,NA,1.150,2262.3,46,validation split used; task_006 V2d ablation
+fcn,no_boundary_no_speckle,FCN + V2d no_boundary_no_speckle,2024,0.844877,0.907139,144.9278,NA,1.094,2207.8,42,validation split used; task_006 V2d ablation
+fcn,no_all_gates,FCN + V2d no_all_gates,2024,0.840829,0.904586,136.4024,NA,1.084,2119.5,45,validation split used; task_006 V2d ablation
+fcn,no_msc,FCN + V2d no_msc,2024,0.848363,0.910157,145.0614,NA,1.146,2316.7,41,validation split used; task_006 V2d ablation
+fcn,no_local_var,FCN + V2d no_local_var,2024,0.845585,0.907911,145.1029,NA,1.200,2300.2,42,validation split used; task_006 V2d ablation
+unet,full,U-Net + V2d full,2024,0.893472,0.938617,31.6253,NA,2.663,3397.9,33,validation split used; task_006 V2d ablation
+unet,no_channel,U-Net + V2d no_channel,2024,0.889718,0.936340,31.0997,NA,2.531,3407.3,49,validation split used; task_006 V2d ablation
+unet,no_boundary,U-Net + V2d no_boundary,2024,0.894634,0.939136,31.6058,NA,2.542,3365.7,43,validation split used; task_006 V2d ablation
+unet,no_speckle,U-Net + V2d no_speckle,2024,0.888433,0.935235,31.5966,NA,2.525,3326.5,38,validation split used; task_006 V2d ablation
+unet,no_boundary_no_speckle,U-Net + V2d no_boundary_no_speckle,2024,0.892461,0.938098,31.5772,NA,2.493,3277.2,33,validation split used; task_006 V2d ablation
+unet,no_all_gates,U-Net + V2d no_all_gates,2024,0.890295,0.936652,31.0516,NA,2.534,3280.2,49,validation split used; task_006 V2d ablation
+unet,no_msc,U-Net + V2d no_msc,2024,0.895189,0.939710,31.6069,NA,2.527,3375.7,33,validation split used; task_006 V2d ablation
+unet,no_local_var,U-Net + V2d no_local_var,2024,0.897975,0.941652,31.6161,NA,2.512,3358.8,41,validation split used; task_006 V2d ablation
