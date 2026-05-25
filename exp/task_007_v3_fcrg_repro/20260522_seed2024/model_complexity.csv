@@ -1,0 +1,9 @@
+architecture,variant,method,params_m,flops_g,inference_time_ms,gpu_memory_mb
+fcn,v1_1,FCN + FA-DCG V1.1,144.9324,NA,1.064,2199.4
+fcn,v2d_nomsc,FCN + FA-DCG V2d-noMSC,145.0614,NA,1.091,2318.0
+fcn,v3_fcrg_a,FCN + FA-DCG V3-FCRG-A,153.4475,NA,1.119,2359.5
+fcn,v3_fcrg_b,FCN + FA-DCG V3-FCRG-B,157.7131,NA,1.164,2456.5
+unet,v1_1,U-Net + FA-DCG V1.1,31.5782,NA,2.569,3261.6
+unet,v2d_nomsc,U-Net + FA-DCG V2d-noMSC,31.6069,NA,2.625,3373.3
+unet,v3_fcrg_a,U-Net + FA-DCG V3-FCRG-A,32.1014,NA,2.635,3326.9
+unet,v3_fcrg_b,U-Net + FA-DCG V3-FCRG-B,32.3649,NA,2.593,3328.1

@@ -1,0 +1,3 @@
+architecture,variant,method,params_m,flops_g,inference_time_ms,gpu_memory_mb
+fcn,v3_fcrg_a,FCN + FA-DCG V3-FCRG-A,137.5212,NA,1.119,2168.6
+unet,v3_fcrg_a,U-Net + FA-DCG V3-FCRG-A,31.3148,NA,2.570,3315.5

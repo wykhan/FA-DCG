@@ -1,0 +1,2 @@
+architecture,variant,method,seed,miou,dice,params_m,flops_g,inference_time_ms,gpu_memory_mb,best_epoch,delta_mIoU_vs_V1.1,delta_mIoU_vs_V2d_noMSC,delta_Dice_vs_V1.1,delta_Dice_vs_V2d_noMSC,status,notes
+fcn,v2d_nomsc,FCN + FA-DCG V2d-noMSC,42,0.839554,0.903794,145.0614,NA,1.232,2320.0,48,-0.003250,-0.008809,-0.002059,-0.006363,worse_than_nomsc,validation split used; task_007 V3 FCRG

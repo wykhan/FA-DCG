@@ -1,0 +1,3 @@
+architecture,variant,method,miou_mean,miou_std,dice_mean,dice_std,params_m,flops_g,inference_time_ms,gpu_memory_mb,delta_miou_vs_V1.1,delta_miou_vs_V2d_noMSC,delta_Dice_vs_V1.1,delta_Dice_vs_V2d_noMSC,status
+fcn,v3_fcrg_a,FCN + FA-DCG V3-FCRG-A,0.836892,0.003412,0.901653,0.002339,137.5212,NA,1.119,2168.6,-0.005912,-0.011471,-0.004200,-0.008504,worse_than_nomsc
+unet,v3_fcrg_a,U-Net + FA-DCG V3-FCRG-A,0.885474,0.005795,0.933752,0.003311,31.3148,NA,2.570,3315.5,-0.006987,-0.009715,-0.004346,-0.005958,worse_than_nomsc

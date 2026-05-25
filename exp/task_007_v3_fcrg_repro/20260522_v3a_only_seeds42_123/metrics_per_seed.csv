@@ -1,0 +1,5 @@
+architecture,variant,method,seed,miou,dice,params_m,flops_g,inference_time_ms,gpu_memory_mb,best_epoch,delta_mIoU_vs_V1.1,delta_mIoU_vs_V2d_noMSC,delta_Dice_vs_V1.1,delta_Dice_vs_V2d_noMSC,status,notes
+fcn,v3_fcrg_a,FCN + FA-DCG V3-FCRG-A,42,0.834479,0.899999,137.5212,NA,1.081,2167.9,46,-0.008325,-0.013884,-0.005854,-0.010158,worse_than_nomsc,validation split used; task_007 V3 FCRG
+fcn,v3_fcrg_a,FCN + FA-DCG V3-FCRG-A,123,0.839305,0.903307,137.5212,NA,1.156,2169.3,43,-0.003499,-0.009058,-0.002546,-0.006850,worse_than_nomsc,validation split used; task_007 V3 FCRG
+unet,v3_fcrg_a,U-Net + FA-DCG V3-FCRG-A,42,0.881377,0.931411,31.3148,NA,2.579,3315.5,46,-0.011084,-0.013812,-0.006687,-0.008299,worse_than_nomsc,validation split used; task_007 V3 FCRG
+unet,v3_fcrg_a,U-Net + FA-DCG V3-FCRG-A,123,0.889572,0.936093,31.3148,NA,2.560,3315.5,45,-0.002889,-0.005617,-0.002005,-0.003617,worse_than_nomsc,validation split used; task_007 V3 FCRG

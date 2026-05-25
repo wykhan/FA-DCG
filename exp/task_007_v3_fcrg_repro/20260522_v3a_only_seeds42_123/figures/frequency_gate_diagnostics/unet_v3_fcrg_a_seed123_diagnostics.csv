@@ -1,0 +1,2 @@
+architecture,variant,seed,module_index,alpha_value,response_gate_mean,response_gate_std,lambda_value,base_response_gate_mean,base_response_gate_std,frequency_modulation_mean,frequency_modulation_std,final_response_gate_mean,final_response_gate_std,local_high_gap_mean,local_var_gap_mean,v1_response_gate_mean,v1_response_gate_std,v2d_boundary_gate_mean,v2d_speckle_gate_mean,v2d_combined_gate_mean,v2d_channel_gate_mean
+unet,v3_fcrg_a,123,0,0.523379385471344,0.5349252223968506,0.31157222390174866,NA,NA,NA,NA,NA,NA,NA,0.13638438284397125,0.9990708827972412,NA,NA,NA,NA,NA,NA
