@@ -1,0 +1,3 @@
+backbone,method,module_type,num_seeds,miou_mean,miou_std,dice_mean,dice_std,params_abs,params_delta_vs_backbone,flops_abs,flops_delta_vs_backbone,latency_ms_mean,fps,notes
+FCN,FCN,baseline,1,0.325548,0.000000,0.000000,0.000000,134271937,0,20518027264,0,3.011379,332.073779,mean/std over completed task_008 seeds
+U-Net,U-Net + SRFG,SRFG,1,0.174452,0.000000,0.517314,0.000000,31606851,NA,54670918656,NA,2.951522,338.808248,mean/std over completed task_008 seeds

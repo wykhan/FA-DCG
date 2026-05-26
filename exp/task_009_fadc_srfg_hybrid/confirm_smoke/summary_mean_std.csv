@@ -1,0 +1,5 @@
+backbone,method,variant,num_seeds,val_miou_mean,val_miou_std,test_miou_mean,test_miou_std,test_dice_mean,test_dice_std,params_abs,params_delta_vs_unet,macs_abs,latency_ms_mean,fps,notes
+U-Net,U-Net,baseline,1,0.835508,0.000000,0.856289,0.000000,0.873615,0.000000,31042369,0,54662266880,3.186097,313.863638,screening summary; reused rows imported from task_008 when noted
+U-Net,U-Net + CBAM,cbam,2,0.535773,0.442936,0.460811,0.591719,0.525480,0.522029,31173539,131170,54662817280,3.271202,305.698027,screening summary; reused rows imported from task_008 when noted
+U-Net,U-Net + FADC-aligned,fadc_aligned,2,0.534926,0.441737,0.460575,0.591386,0.525632,0.522243,31483786,441417,54682781696,4.598140,217.479219,screening summary; reused rows imported from task_008 when noted
+U-Net,U-Net + SRFG,srfg_v2d_nomsc,1,0.848554,0.000000,0.875874,0.000000,0.892199,0.000000,31606851,564482,54670918656,3.656659,273.473718,screening summary; reused rows imported from task_008 when noted

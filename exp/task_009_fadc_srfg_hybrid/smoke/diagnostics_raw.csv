@@ -1,0 +1,161 @@
+method,variant,seed,source,metric,value,notes
+U-Net + FADC-SR-high,fadc_sr_high,2026,hybrid_bottleneck_test_sample,high_frequency_weight_mean,0.9987832903862,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high,fadc_sr_high,2026,hybrid_bottleneck_test_sample,high_frequency_weight_std,0.0005755964666604996,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high,fadc_sr_high,2026,hybrid_bottleneck_test_sample,low_frequency_weight_mean,0.9966227412223816,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high,fadc_sr_high,2026,hybrid_bottleneck_test_sample,low_frequency_weight_std,0.000551316945347935,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high,fadc_sr_high,2026,hybrid_bottleneck_test_sample,adaptive_kernel_low_gate_mean,1.462117075920105,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high,fadc_sr_high,2026,hybrid_bottleneck_test_sample,adaptive_kernel_high_gate_mean,1.462117075920105,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high,fadc_sr_high,2026,hybrid_bottleneck_test_sample,alpha_value,0.09986364096403122,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high,fadc_sr_high,2026,hybrid_bottleneck_test_sample,gate_mean,0.49909842014312744,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high,fadc_sr_high,2026,hybrid_bottleneck_test_sample,gate_std,0.018303854390978813,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high,fadc_sr_high,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d1,0.4744721055030823,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high,fadc_sr_high,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d2,0.17520877718925476,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high,fadc_sr_high,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d3,0.174265056848526,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high,fadc_sr_high,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d4,0.17605406045913696,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high,fadc_sr_high,2026,hybrid_bottleneck_test_sample,small_dilation_weight,0.6496808528900146,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high,fadc_sr_high,2026,hybrid_bottleneck_test_sample,large_dilation_weight,0.35031911730766296,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high,fadc_sr_high,2026,hybrid_bottleneck_test_sample,sr_beta,0.10000216215848923,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high,fadc_sr_high,2026,hybrid_bottleneck_test_sample,sr_reliability_mean,0.9499988555908203,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high,fadc_sr_high,2026,hybrid_bottleneck_test_sample,sr_reliability_std,7.964135306792741e-08,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high,fadc_sr_high,2026,hybrid_bottleneck_test_sample,sr_local_high_mean,0.0026162322610616684,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high,fadc_sr_high,2026,hybrid_bottleneck_test_sample,sr_local_var_mean,nan,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-noVar,fadc_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,high_frequency_weight_mean,1.0018541812896729,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-noVar,fadc_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,high_frequency_weight_std,0.0006408454501070082,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-noVar,fadc_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,low_frequency_weight_mean,0.9993103742599487,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-noVar,fadc_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,low_frequency_weight_std,0.00019819730368908495,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-noVar,fadc_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,adaptive_kernel_low_gate_mean,1.4621171951293945,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-noVar,fadc_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,adaptive_kernel_high_gate_mean,1.4621171951293945,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-noVar,fadc_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,alpha_value,0.10015884786844254,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-noVar,fadc_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,gate_mean,0.49909818172454834,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-noVar,fadc_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,gate_std,0.018307359889149666,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-noVar,fadc_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d1,0.4721115529537201,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-noVar,fadc_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d2,0.17819365859031677,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-noVar,fadc_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d3,0.17538335919380188,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-noVar,fadc_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d4,0.17431139945983887,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-noVar,fadc_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,small_dilation_weight,0.6503052115440369,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-noVar,fadc_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,large_dilation_weight,0.34969475865364075,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-noVar,fadc_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,spatial_gamma,0.0,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-noVar,fadc_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,spatial_mask_mean,0.5,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-noVar,fadc_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,spatial_mask_std,0.0,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-noVar,fadc_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,spatial_mask_min,0.5,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-noVar,fadc_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,spatial_mask_max,0.5,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-noVar,fadc_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,spatial_local_high_mean,0.0026219042483717203,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-noVar,fadc_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,spatial_local_var_mean,nan,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,high_frequency_weight_mean,0.9962150454521179,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,high_frequency_weight_std,0.00248533533886075,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,low_frequency_weight_mean,0.9986077547073364,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,low_frequency_weight_std,0.00033844122663140297,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,adaptive_kernel_low_gate_mean,1.4621171951293945,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,adaptive_kernel_high_gate_mean,1.4621169567108154,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,alpha_value,0.0998062863945961,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,gate_mean,0.49909740686416626,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,gate_std,0.018307296559214592,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d1,0.4713277220726013,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d2,0.17718780040740967,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d3,0.17473749816417694,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d4,0.17674702405929565,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,small_dilation_weight,0.648515522480011,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,large_dilation_weight,0.3514845371246338,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,sr_beta,0.10000558197498322,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,sr_reliability_mean,0.9499971866607666,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,sr_reliability_std,3.880666099576047e-08,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,sr_local_high_mean,0.0026198835112154484,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,sr_local_var_mean,nan,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,spatial_gamma,0.0,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,spatial_mask_mean,0.5,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,spatial_mask_std,0.0,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,spatial_mask_min,0.5,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,spatial_mask_max,0.5,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,spatial_local_high_mean,0.002620275132358074,diagnostics from first deterministic test batch
+U-Net + FADC-SR-high + SARSpatial-noVar,fadc_sr_high_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,spatial_local_var_mean,nan,diagnostics from first deterministic test batch
+U-Net + FADC-CBAM-SpatialOnly,fadc_cbam_spatial_only,2026,hybrid_bottleneck_test_sample,high_frequency_weight_mean,1.000130295753479,diagnostics from first deterministic test batch
+U-Net + FADC-CBAM-SpatialOnly,fadc_cbam_spatial_only,2026,hybrid_bottleneck_test_sample,high_frequency_weight_std,0.0015004092128947377,diagnostics from first deterministic test batch
+U-Net + FADC-CBAM-SpatialOnly,fadc_cbam_spatial_only,2026,hybrid_bottleneck_test_sample,low_frequency_weight_mean,0.993022084236145,diagnostics from first deterministic test batch
+U-Net + FADC-CBAM-SpatialOnly,fadc_cbam_spatial_only,2026,hybrid_bottleneck_test_sample,low_frequency_weight_std,0.0013326479820534587,diagnostics from first deterministic test batch
+U-Net + FADC-CBAM-SpatialOnly,fadc_cbam_spatial_only,2026,hybrid_bottleneck_test_sample,adaptive_kernel_low_gate_mean,1.4621169567108154,diagnostics from first deterministic test batch
+U-Net + FADC-CBAM-SpatialOnly,fadc_cbam_spatial_only,2026,hybrid_bottleneck_test_sample,adaptive_kernel_high_gate_mean,1.4621171951293945,diagnostics from first deterministic test batch
+U-Net + FADC-CBAM-SpatialOnly,fadc_cbam_spatial_only,2026,hybrid_bottleneck_test_sample,alpha_value,0.09984797984361649,diagnostics from first deterministic test batch
+U-Net + FADC-CBAM-SpatialOnly,fadc_cbam_spatial_only,2026,hybrid_bottleneck_test_sample,gate_mean,0.4990987777709961,diagnostics from first deterministic test batch
+U-Net + FADC-CBAM-SpatialOnly,fadc_cbam_spatial_only,2026,hybrid_bottleneck_test_sample,gate_std,0.018306029960513115,diagnostics from first deterministic test batch
+U-Net + FADC-CBAM-SpatialOnly,fadc_cbam_spatial_only,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d1,0.4724906384944916,diagnostics from first deterministic test batch
+U-Net + FADC-CBAM-SpatialOnly,fadc_cbam_spatial_only,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d2,0.17546075582504272,diagnostics from first deterministic test batch
+U-Net + FADC-CBAM-SpatialOnly,fadc_cbam_spatial_only,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d3,0.17635789513587952,diagnostics from first deterministic test batch
+U-Net + FADC-CBAM-SpatialOnly,fadc_cbam_spatial_only,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d4,0.17569071054458618,diagnostics from first deterministic test batch
+U-Net + FADC-CBAM-SpatialOnly,fadc_cbam_spatial_only,2026,hybrid_bottleneck_test_sample,small_dilation_weight,0.6479513645172119,diagnostics from first deterministic test batch
+U-Net + FADC-CBAM-SpatialOnly,fadc_cbam_spatial_only,2026,hybrid_bottleneck_test_sample,large_dilation_weight,0.3520486056804657,diagnostics from first deterministic test batch
+U-Net + FADC-CBAM-SpatialOnly,fadc_cbam_spatial_only,2026,hybrid_bottleneck_test_sample,spatial_gamma,0.0,diagnostics from first deterministic test batch
+U-Net + FADC-CBAM-SpatialOnly,fadc_cbam_spatial_only,2026,hybrid_bottleneck_test_sample,spatial_mask_mean,0.5,diagnostics from first deterministic test batch
+U-Net + FADC-CBAM-SpatialOnly,fadc_cbam_spatial_only,2026,hybrid_bottleneck_test_sample,spatial_mask_std,0.0,diagnostics from first deterministic test batch
+U-Net + FADC-CBAM-SpatialOnly,fadc_cbam_spatial_only,2026,hybrid_bottleneck_test_sample,spatial_mask_min,0.5,diagnostics from first deterministic test batch
+U-Net + FADC-CBAM-SpatialOnly,fadc_cbam_spatial_only,2026,hybrid_bottleneck_test_sample,spatial_mask_max,0.5,diagnostics from first deterministic test batch
+U-Net + FADC-CBAM-SpatialOnly,fadc_cbam_spatial_only,2026,hybrid_bottleneck_test_sample,spatial_local_high_mean,nan,diagnostics from first deterministic test batch
+U-Net + FADC-CBAM-SpatialOnly,fadc_cbam_spatial_only,2026,hybrid_bottleneck_test_sample,spatial_local_var_mean,nan,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch,fadc_sr_branch,2026,hybrid_bottleneck_test_sample,high_frequency_weight_mean,0.998729944229126,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch,fadc_sr_branch,2026,hybrid_bottleneck_test_sample,high_frequency_weight_std,0.0006759966490790248,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch,fadc_sr_branch,2026,hybrid_bottleneck_test_sample,low_frequency_weight_mean,0.9967333674430847,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch,fadc_sr_branch,2026,hybrid_bottleneck_test_sample,low_frequency_weight_std,0.0005361819639801979,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch,fadc_sr_branch,2026,hybrid_bottleneck_test_sample,adaptive_kernel_low_gate_mean,1.462117075920105,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch,fadc_sr_branch,2026,hybrid_bottleneck_test_sample,adaptive_kernel_high_gate_mean,1.462117075920105,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch,fadc_sr_branch,2026,hybrid_bottleneck_test_sample,alpha_value,0.09986142069101334,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch,fadc_sr_branch,2026,hybrid_bottleneck_test_sample,gate_mean,0.4990983009338379,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch,fadc_sr_branch,2026,hybrid_bottleneck_test_sample,gate_std,0.018303992226719856,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch,fadc_sr_branch,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d1,0.4743276536464691,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch,fadc_sr_branch,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d2,0.17522326111793518,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch,fadc_sr_branch,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d3,0.17442390322685242,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch,fadc_sr_branch,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d4,0.1760251671075821,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch,fadc_sr_branch,2026,hybrid_bottleneck_test_sample,small_dilation_weight,0.6495509147644043,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch,fadc_sr_branch,2026,hybrid_bottleneck_test_sample,large_dilation_weight,0.3504490852355957,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch,fadc_sr_branch,2026,hybrid_bottleneck_test_sample,sr_beta,0.10000398755073547,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch,fadc_sr_branch,2026,hybrid_bottleneck_test_sample,sr_reliability_mean,0.9499980211257935,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch,fadc_sr_branch,2026,hybrid_bottleneck_test_sample,sr_reliability_std,4.068628101094873e-08,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch,fadc_sr_branch,2026,hybrid_bottleneck_test_sample,sr_local_high_mean,0.0026183780282735825,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch,fadc_sr_branch,2026,hybrid_bottleneck_test_sample,sr_local_var_mean,nan,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-withVar,fadc_sar_spatial_with_var,2026,hybrid_bottleneck_test_sample,high_frequency_weight_mean,1.0000985860824585,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-withVar,fadc_sar_spatial_with_var,2026,hybrid_bottleneck_test_sample,high_frequency_weight_std,0.003991235513240099,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-withVar,fadc_sar_spatial_with_var,2026,hybrid_bottleneck_test_sample,low_frequency_weight_mean,1.0086780786514282,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-withVar,fadc_sar_spatial_with_var,2026,hybrid_bottleneck_test_sample,low_frequency_weight_std,0.0015593755524605513,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-withVar,fadc_sar_spatial_with_var,2026,hybrid_bottleneck_test_sample,adaptive_kernel_low_gate_mean,1.4621171951293945,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-withVar,fadc_sar_spatial_with_var,2026,hybrid_bottleneck_test_sample,adaptive_kernel_high_gate_mean,1.4621171951293945,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-withVar,fadc_sar_spatial_with_var,2026,hybrid_bottleneck_test_sample,alpha_value,0.10017877072095871,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-withVar,fadc_sar_spatial_with_var,2026,hybrid_bottleneck_test_sample,gate_mean,0.4990962743759155,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-withVar,fadc_sar_spatial_with_var,2026,hybrid_bottleneck_test_sample,gate_std,0.018309244886040688,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-withVar,fadc_sar_spatial_with_var,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d1,0.4773333668708801,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-withVar,fadc_sar_spatial_with_var,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d2,0.17433500289916992,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-withVar,fadc_sar_spatial_with_var,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d3,0.1755390763282776,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-withVar,fadc_sar_spatial_with_var,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d4,0.17279255390167236,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-withVar,fadc_sar_spatial_with_var,2026,hybrid_bottleneck_test_sample,small_dilation_weight,0.65166836977005,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-withVar,fadc_sar_spatial_with_var,2026,hybrid_bottleneck_test_sample,large_dilation_weight,0.34833163022994995,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-withVar,fadc_sar_spatial_with_var,2026,hybrid_bottleneck_test_sample,spatial_gamma,0.0,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-withVar,fadc_sar_spatial_with_var,2026,hybrid_bottleneck_test_sample,spatial_mask_mean,0.5,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-withVar,fadc_sar_spatial_with_var,2026,hybrid_bottleneck_test_sample,spatial_mask_std,0.0,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-withVar,fadc_sar_spatial_with_var,2026,hybrid_bottleneck_test_sample,spatial_mask_min,0.5,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-withVar,fadc_sar_spatial_with_var,2026,hybrid_bottleneck_test_sample,spatial_mask_max,0.5,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-withVar,fadc_sar_spatial_with_var,2026,hybrid_bottleneck_test_sample,spatial_local_high_mean,0.0026219869032502174,diagnostics from first deterministic test batch
+U-Net + FADC-SARSpatial-withVar,fadc_sar_spatial_with_var,2026,hybrid_bottleneck_test_sample,spatial_local_var_mean,8.422895916737616e-05,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,high_frequency_weight_mean,0.9961581230163574,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,high_frequency_weight_std,0.0024661668576300144,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,low_frequency_weight_mean,0.99872225522995,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,low_frequency_weight_std,0.00031595947802998126,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,adaptive_kernel_low_gate_mean,1.4621171951293945,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,adaptive_kernel_high_gate_mean,1.4621169567108154,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,alpha_value,0.0998057872056961,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,gate_mean,0.4990973472595215,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,gate_std,0.018307289108633995,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d1,0.47131049633026123,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d2,0.17728377878665924,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d3,0.17474454641342163,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,branch_weight_mean_d4,0.1766611635684967,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,small_dilation_weight,0.6485942602157593,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,large_dilation_weight,0.35140570998191833,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,sr_beta,0.10000614821910858,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,sr_reliability_mean,0.9499969482421875,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,sr_reliability_std,4.9467335117014954e-08,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,sr_local_high_mean,0.002620167098939419,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,sr_local_var_mean,nan,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,spatial_gamma,0.0,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,spatial_mask_mean,0.5,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,spatial_mask_std,0.0,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,spatial_mask_min,0.5,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,spatial_mask_max,0.5,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,spatial_local_high_mean,0.0026205452159047127,diagnostics from first deterministic test batch
+U-Net + FADC-SR-branch + SARSpatial-noVar,fadc_sr_branch_sar_spatial_no_var,2026,hybrid_bottleneck_test_sample,spatial_local_var_mean,nan,diagnostics from first deterministic test batch

@@ -1,0 +1,3 @@
+backbone,method,module_type,seed,miou,dice,best_epoch,checkpoint_path,status,notes
+FCN,FCN,baseline,42,0.3255481719970703,0.0,0,exp/task_008_main_module_table/smoke_check/checkpoints/fcn_seed42_best.pt,completed,trained under task_008 protocol
+U-Net,U-Net + SRFG,SRFG,42,0.1744518280029297,0.5173144196806059,0,exp/task_008_main_module_table/smoke_check/checkpoints/unet_srfg_seed42_best.pt,completed,trained under task_008 protocol

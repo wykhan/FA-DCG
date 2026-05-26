@@ -1,0 +1,4 @@
+method=U-Net + V2d-noBoundary-noLocalVar, variant=v2d_no_boundary_no_local_var, priority=B, seed=2026
+protocol=256x256, batch=2, epochs=1, Adam, lr=0.0001, cosine_min_lr=1e-06
+epoch=0, train_loss=0.767562, val_miou=0.525386, val_dice=0.693571
+selected_best_epoch=0, val_miou=0.525386, val_dice=0.693571, test_miou=0.210220, test_dice=0.205323

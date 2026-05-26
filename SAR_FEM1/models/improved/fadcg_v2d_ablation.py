@@ -60,6 +60,13 @@ VARIANT_CONFIGS = {
         "msc": True,
         "local_var": False,
     },
+    "no_boundary_no_local_var": {
+        "channel": True,
+        "boundary": False,
+        "speckle": True,
+        "msc": False,
+        "local_var": False,
+    },
 }
 
 

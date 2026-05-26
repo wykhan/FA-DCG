@@ -1,0 +1,10 @@
+backbone,method,module_type,seed,miou,dice,best_epoch,checkpoint_path,status,notes
+FCN,FCN,baseline,42,0.652789077403886,0.7555075724532848,48,exp/task_008_main_module_table/20260525_165307/checkpoints/fcn_seed42_best.pt,completed,trained under task_008 protocol
+FCN,FCN,baseline,123,0.6582108404261455,0.7674725311230888,36,exp/task_008_main_module_table/20260525_165307/checkpoints/fcn_seed123_best.pt,completed,trained under task_008 protocol
+FCN,FCN,baseline,2024,0.640326264335728,0.7415285141812877,30,exp/task_008_main_module_table/20260525_165307/checkpoints/fcn_seed2024_best.pt,completed,trained under task_008 protocol
+FCN,FCN + CBAM,CBAM,42,0.6413238717879043,0.7436014090775546,39,exp/task_008_main_module_table/20260525_165307/checkpoints/fcn_cbam_seed42_best.pt,completed,trained under task_008 protocol
+FCN,FCN + CBAM,CBAM,123,0.6492083832167275,0.7637302957344623,35,exp/task_008_main_module_table/20260525_165307/checkpoints/fcn_cbam_seed123_best.pt,completed,trained under task_008 protocol
+FCN,FCN + CBAM,CBAM,2024,0.6501799362261926,0.7543949429606212,38,exp/task_008_main_module_table/20260525_165307/checkpoints/fcn_cbam_seed2024_best.pt,completed,trained under task_008 protocol
+FCN,FCN + SE,SE,42,0.6426440746457793,0.7458136319410068,38,exp/task_008_main_module_table/20260525_165307/checkpoints/fcn_se_seed42_best.pt,completed,trained under task_008 protocol
+FCN,FCN + SE,SE,123,0.655944945493461,0.7634626314094937,36,exp/task_008_main_module_table/20260525_165307/checkpoints/fcn_se_seed123_best.pt,completed,trained under task_008 protocol
+FCN,FCN + SE,SE,2024,0.6515357765284135,0.752670486428242,49,exp/task_008_main_module_table/20260525_165307/checkpoints/fcn_se_seed2024_best.pt,completed,trained under task_008 protocol

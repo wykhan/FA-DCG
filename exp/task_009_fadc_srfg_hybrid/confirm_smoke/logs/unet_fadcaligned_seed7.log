@@ -1,0 +1,4 @@
+method=U-Net + FADC-aligned, variant=fadc_aligned, priority=baseline, seed=7
+protocol=256x256, batch=2, epochs=1, Adam, lr=0.0001, cosine_min_lr=1e-06
+epoch=0, train_loss=0.672120, val_miou=0.222570, val_dice=0.616052
+selected_best_epoch=0, val_miou=0.222570, val_dice=0.616052, test_miou=0.042402, test_dice=0.156350

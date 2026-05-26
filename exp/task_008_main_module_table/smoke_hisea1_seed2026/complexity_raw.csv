@@ -1,0 +1,5 @@
+backbone,method,module_type,params_abs,params_delta_vs_backbone,flops_abs,flops_delta_vs_backbone,flops_unit,flops_tool,latency_ms_mean,latency_ms_std,fps,device,gpu_name,input_shape,notes
+FCN,FCN,baseline,134271937,0,20518027264,0,MACs,thop,2.754760,0.005897,363.008094,cuda,NVIDIA GeForce RTX 4090,"[1,1,256,256]",FLOPs are THOP MACs; one multiply-add counted as one MAC
+FCN,FCN + SRFG,SRFG,145061445,10789508,20192006656,-326020608,MACs,thop,1.921963,0.016255,520.301378,cuda,NVIDIA GeForce RTX 4090,"[1,1,256,256]",FLOPs are THOP MACs; one multiply-add counted as one MAC
+U-Net,U-Net,baseline,31042369,0,54662266880,0,MACs,thop,2.965863,0.121165,337.170046,cuda,NVIDIA GeForce RTX 4090,"[1,1,256,256]",FLOPs are THOP MACs; one multiply-add counted as one MAC
+U-Net,U-Net + SRFG,SRFG,31606851,564482,54670918656,8651776,MACs,thop,2.975595,0.003754,336.067295,cuda,NVIDIA GeForce RTX 4090,"[1,1,256,256]",FLOPs are THOP MACs; one multiply-add counted as one MAC
