@@ -1,0 +1,3 @@
+backbone,method,variant,num_seeds,val_miou_mean,val_miou_std,test_miou_mean,test_miou_std,test_dice_mean,test_dice_std,params_abs,params_delta_vs_backbone,macs_abs,latency_ms_mean,fps,notes
+FCN,FCN + FA-DCG V1.1,v1_1,3,0.817895,0.001158,0.821770,0.004702,0.836778,0.005811,144932419,10660482,20183159296,1.846534,541.555099,fresh task_013 train/val/test V1.1 summary
+U-Net,U-Net + FA-DCG V1.1,v1_1,3,0.851643,0.005214,0.878025,0.001707,0.893744,0.001307,31578178,535809,54663054336,2.773101,360.607167,fresh task_013 train/val/test V1.1 summary
