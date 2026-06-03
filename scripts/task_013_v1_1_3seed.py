@@ -555,9 +555,10 @@ def write_report(
     sizes = split_sizes(data_root)
     completed = [row for row in raw_rows if row["status"] == "completed"]
     failures = [row for row in raw_rows if row["status"] != "completed"]
+    seed_label = f"{len(args.seeds)}-seed"
 
     with (out_dir / "task_013_report.md").open("w", encoding="utf-8") as handle:
-        handle.write("# Task 013 FA-DCG V1.1 Three-Seed Report\n\n")
+        handle.write(f"# Task 013 FA-DCG V1.1 {seed_label} Report\n\n")
         handle.write(f"- git branch: `{branch}`\n")
         handle.write(f"- git commit hash: `{commit}`\n")
         handle.write(f"- dirty-worktree status:\n\n```text\n{status if status else 'clean'}\n```\n\n")
@@ -568,7 +569,7 @@ def write_report(
         handle.write("## Model Configs\n\n")
         handle.write("- `FCN + FA-DCG V1.1`: `FCNWithOptimizedFADCG`, two `VectorizedLightFADC` blocks on the original deep FCN path.\n")
         handle.write("- `U-Net + FA-DCG V1.1`: `UNetWithOptimizedFADCG`, one `VectorizedLightFADC` block at the U-Net bottleneck.\n")
-        handle.write("- These are fresh three-seed train/val/test V1.1 results, not reused validation-only rows.\n\n")
+        handle.write(f"- These are fresh {seed_label} train/val/test V1.1 results, not reused validation-only rows.\n\n")
         handle.write("## Protocol\n\n")
         handle.write(
             f"- input size: {args.img_size} x {args.img_size}; batch size: {args.batch_size}; epochs: {args.epochs}\n"
