@@ -1,0 +1,6 @@
+backbone,method,variant,num_seeds,val_miou_mean,val_miou_std,test_miou_mean,test_miou_std,test_dice_mean,test_dice_std,params_abs,params_delta_vs_unet,macs_abs,latency_ms_mean,fps,notes
+U-Net,U-Net,baseline,1,0.835508,0.000000,0.856289,0.000000,0.873615,0.000000,NA,NA,NA,NA,NA,screening summary; reused rows imported from task_008 when noted
+U-Net,U-Net + CBAM,cbam,4,0.853294,0.003089,0.876695,0.002408,0.892750,0.001991,NA,NA,NA,NA,NA,screening summary; reused rows imported from task_008 when noted
+U-Net,U-Net + FADC-aligned,fadc_aligned,1,0.847281,0.000000,0.878748,0.000000,0.894914,0.000000,NA,NA,NA,NA,NA,screening summary; reused rows imported from task_008 when noted
+U-Net,U-Net + SRFG,srfg_v2d_nomsc,1,0.848554,0.000000,0.875874,0.000000,0.892199,0.000000,NA,NA,NA,NA,NA,screening summary; reused rows imported from task_008 when noted
+U-Net,U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,3,0.851270,0.003744,0.878784,0.003717,0.895108,0.003374,NA,NA,NA,NA,NA,screening summary; reused rows imported from task_008 when noted

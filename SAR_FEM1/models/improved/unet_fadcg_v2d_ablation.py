@@ -12,10 +12,11 @@ from models.improved.fadcg_v2d_ablation import FADCGV2dAblation
 class UNetWithFADCGV2dAblation(UNet):
     """U-Net + configurable FA-DCG V2d ablation."""
 
-    def __init__(self, in_channels=1, num_classes=1, features=[64, 128, 256, 512], variant="full"):
+    def __init__(self, in_channels=1, num_classes=1, features=[64, 128, 256, 512], variant="full", freq_init="random"):
         super().__init__(in_channels, num_classes, features)
         self.variant = variant
-        self.light_fadc = FADCGV2dAblation(features[-1] * 2, kernel_size=3, variant=variant)
+        self.freq_init = freq_init
+        self.light_fadc = FADCGV2dAblation(features[-1] * 2, kernel_size=3, variant=variant, freq_init=freq_init)
 
     def forward(self, x):
         skip_connections = []

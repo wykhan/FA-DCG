@@ -1,0 +1,3 @@
+method,variant,num_seeds,seeds,val_miou_mean,val_miou_std,test_miou_mean,test_miou_std,test_dice_mean,test_dice_std
+U-Net + CBAM,cbam,6,42 123 2026 2027 2028 2029,0.853099,0.002588,0.875711,0.005141,0.891843,0.004712
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,6,42 123 2026 2027 2028 2029,0.853394,0.003900,0.878786,0.002976,0.894829,0.002808

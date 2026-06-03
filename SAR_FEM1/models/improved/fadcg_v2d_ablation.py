@@ -67,6 +67,20 @@ VARIANT_CONFIGS = {
         "msc": False,
         "local_var": False,
     },
+    "no_boundary_keep_msc_no_local_var": {
+        "channel": True,
+        "boundary": False,
+        "speckle": True,
+        "msc": True,
+        "local_var": False,
+    },
+    "boundary_no_msc_no_local_var": {
+        "channel": True,
+        "boundary": True,
+        "speckle": True,
+        "msc": False,
+        "local_var": False,
+    },
 }
 
 
@@ -180,13 +194,16 @@ class AblationFrequencyGate(nn.Module):
 class FADCGV2dAblation(nn.Module):
     """FA-DCG V2d ablation block."""
 
-    def __init__(self, channels, kernel_size=3, variant="full", alpha_init=0.5, beta_init=0.1):
+    def __init__(self, channels, kernel_size=3, variant="full", alpha_init=0.5, beta_init=0.1, freq_init="random"):
         super().__init__()
         if variant not in VARIANT_CONFIGS:
             raise ValueError(f"Unknown V2d ablation variant: {variant}")
+        if freq_init not in {"random", "laplacian"}:
+            raise ValueError(f"Unknown frequency initialization: {freq_init}")
         self.channels = channels
         self.kernel_size = kernel_size
         self.variant = variant
+        self.freq_init = freq_init
         self.config = VARIANT_CONFIGS[variant]
         hidden = max(channels // 4, 1)
         if self.config["channel"]:
@@ -206,8 +223,25 @@ class FADCGV2dAblation(nn.Module):
             self.beta_logit = nn.Parameter(torch.logit(torch.tensor(beta_init)))
         else:
             self.register_parameter("beta_logit", None)
-        self.weight = nn.Parameter(torch.randn(channels, 1, kernel_size, kernel_size))
+        self.weight = nn.Parameter(torch.empty(channels, 1, kernel_size, kernel_size))
+        self.reset_frequency_weight()
         self.last_diagnostics = {}
+
+    def reset_frequency_weight(self):
+        if self.freq_init == "random":
+            nn.init.normal_(self.weight)
+            return
+        if self.kernel_size != 3:
+            raise ValueError("laplacian frequency initialization requires kernel_size=3")
+        kernel = torch.tensor(
+            [[0.0, -1.0, 0.0], [-1.0, 4.0, -1.0], [0.0, -1.0, 0.0]],
+            dtype=self.weight.dtype,
+            device=self.weight.device,
+        )
+        # Normalize by L1 norm so the high-pass prior is explicit but not overly large.
+        kernel = kernel / kernel.abs().sum()
+        with torch.no_grad():
+            self.weight.copy_(kernel.view(1, 1, 3, 3).repeat(self.channels, 1, 1, 1))
 
     def beta(self):
         if self.beta_logit is None:
@@ -231,6 +265,9 @@ class FADCGV2dAblation(nn.Module):
                 "beta_value": beta.detach().cpu() if beta is not None else "NA",
                 "channel_gate_mean": channel_gate.detach().mean().cpu() if self.channel_gate is not None else "NA",
                 "channel_gate_std": channel_gate.detach().std(unbiased=False).cpu() if self.channel_gate is not None else "NA",
+                "freq_init": self.freq_init,
+                "depthwise_weight_mean": self.weight.detach().mean().cpu(),
+                "depthwise_weight_std": self.weight.detach().std(unbiased=False).cpu(),
             }
         return out
 
@@ -250,6 +287,9 @@ class FADCGV2dAblation(nn.Module):
                 "beta_value": beta.detach().cpu() if beta is not None else "NA",
                 "channel_gate_mean": channel_gate.detach().mean().cpu() if self.channel_gate is not None else "NA",
                 "channel_gate_std": channel_gate.detach().std(unbiased=False).cpu() if self.channel_gate is not None else "NA",
+                "freq_init": self.freq_init,
+                "depthwise_weight_mean": self.weight.detach().mean().cpu(),
+                "depthwise_weight_std": self.weight.detach().std(unbiased=False).cpu(),
             }
         return self.last_diagnostics
 

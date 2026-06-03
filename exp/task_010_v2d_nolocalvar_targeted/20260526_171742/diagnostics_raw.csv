@@ -1,0 +1,290 @@
+method,variant,seed,source,metric,value,notes
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,42,hybrid_bottleneck_test_sample,boundary_gate_mean,NA,diagnostic value: NA
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,42,hybrid_bottleneck_test_sample,boundary_gate_std,NA,diagnostic value: NA
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,42,hybrid_bottleneck_test_sample,speckle_gate_mean,0.017894666641950607,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,42,hybrid_bottleneck_test_sample,speckle_gate_std,0.00026098720263689756,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,42,hybrid_bottleneck_test_sample,suppression_ratio,0.9982692003250122,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,42,hybrid_bottleneck_test_sample,combined_gate_mean,0.9982692003250122,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,42,hybrid_bottleneck_test_sample,combined_gate_std,2.5245471988455392e-05,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,42,hybrid_bottleneck_test_sample,local_high_descriptor_mean,0.12964172661304474,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,42,hybrid_bottleneck_test_sample,local_variance_proxy_mean,NA,diagnostic value: NA
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,42,hybrid_bottleneck_test_sample,multi_scale_consistency_mean,NA,diagnostic value: NA
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,42,hybrid_bottleneck_test_sample,alpha_value,0.5371142029762268,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,42,hybrid_bottleneck_test_sample,beta_value,0.09672197699546814,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,42,hybrid_bottleneck_test_sample,channel_gate_mean,0.42371267080307007,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,42,hybrid_bottleneck_test_sample,channel_gate_std,0.40331417322158813,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,42,hybrid_bottleneck_test_sample,freq_init,NA,diagnostic value: random
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,42,hybrid_bottleneck_test_sample,depthwise_weight_mean,-0.013109884224832058,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,42,hybrid_bottleneck_test_sample,depthwise_weight_std,0.9947738647460938,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,123,hybrid_bottleneck_test_sample,boundary_gate_mean,NA,diagnostic value: NA
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,123,hybrid_bottleneck_test_sample,boundary_gate_std,NA,diagnostic value: NA
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,123,hybrid_bottleneck_test_sample,speckle_gate_mean,0.01788981258869171,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,123,hybrid_bottleneck_test_sample,speckle_gate_std,0.0002326611429452896,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,123,hybrid_bottleneck_test_sample,suppression_ratio,0.9982448816299438,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,123,hybrid_bottleneck_test_sample,combined_gate_mean,0.9982448816299438,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,123,hybrid_bottleneck_test_sample,combined_gate_std,2.2826297936262563e-05,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,123,hybrid_bottleneck_test_sample,local_high_descriptor_mean,0.1075095385313034,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,123,hybrid_bottleneck_test_sample,local_variance_proxy_mean,NA,diagnostic value: NA
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,123,hybrid_bottleneck_test_sample,multi_scale_consistency_mean,NA,diagnostic value: NA
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,123,hybrid_bottleneck_test_sample,alpha_value,0.5211980938911438,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,123,hybrid_bottleneck_test_sample,beta_value,0.0981084555387497,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,123,hybrid_bottleneck_test_sample,channel_gate_mean,0.4177399277687073,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,123,hybrid_bottleneck_test_sample,channel_gate_std,0.3804069459438324,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,123,hybrid_bottleneck_test_sample,freq_init,NA,diagnostic value: random
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,123,hybrid_bottleneck_test_sample,depthwise_weight_mean,-0.004930788651108742,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundary-noLocalVar,v2d_no_boundary_no_local_var,123,hybrid_bottleneck_test_sample,depthwise_weight_std,1.0037556886672974,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,42,hybrid_bottleneck_test_sample,boundary_gate_mean,NA,diagnostic value: NA
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,42,hybrid_bottleneck_test_sample,boundary_gate_std,NA,diagnostic value: NA
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,42,hybrid_bottleneck_test_sample,speckle_gate_mean,0.017950138077139854,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,42,hybrid_bottleneck_test_sample,speckle_gate_std,0.0003139870532322675,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,42,hybrid_bottleneck_test_sample,suppression_ratio,0.998256266117096,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,42,hybrid_bottleneck_test_sample,combined_gate_mean,0.998256266117096,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,42,hybrid_bottleneck_test_sample,combined_gate_std,3.0503815651172772e-05,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,42,hybrid_bottleneck_test_sample,local_high_descriptor_mean,0.10790640115737915,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,42,hybrid_bottleneck_test_sample,local_variance_proxy_mean,NA,diagnostic value: NA
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,42,hybrid_bottleneck_test_sample,multi_scale_consistency_mean,0.13254602253437042,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,42,hybrid_bottleneck_test_sample,alpha_value,0.5327139496803284,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,42,hybrid_bottleneck_test_sample,beta_value,0.09714370220899582,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,42,hybrid_bottleneck_test_sample,channel_gate_mean,0.39214658737182617,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,42,hybrid_bottleneck_test_sample,channel_gate_std,0.39930203557014465,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,42,hybrid_bottleneck_test_sample,freq_init,NA,diagnostic value: random
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,42,hybrid_bottleneck_test_sample,depthwise_weight_mean,-0.00172135466709733,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,42,hybrid_bottleneck_test_sample,depthwise_weight_std,0.9995955228805542,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,123,hybrid_bottleneck_test_sample,boundary_gate_mean,NA,diagnostic value: NA
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,123,hybrid_bottleneck_test_sample,boundary_gate_std,NA,diagnostic value: NA
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,123,hybrid_bottleneck_test_sample,speckle_gate_mean,0.01790802553296089,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,123,hybrid_bottleneck_test_sample,speckle_gate_std,0.00043222479871474206,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,123,hybrid_bottleneck_test_sample,suppression_ratio,0.9982709884643555,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,123,hybrid_bottleneck_test_sample,combined_gate_mean,0.9982709884643555,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,123,hybrid_bottleneck_test_sample,combined_gate_std,4.1733223042683676e-05,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,123,hybrid_bottleneck_test_sample,local_high_descriptor_mean,0.12916287779808044,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,123,hybrid_bottleneck_test_sample,local_variance_proxy_mean,NA,diagnostic value: NA
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,123,hybrid_bottleneck_test_sample,multi_scale_consistency_mean,0.1668132096529007,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,123,hybrid_bottleneck_test_sample,alpha_value,0.5397132039070129,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,123,hybrid_bottleneck_test_sample,beta_value,0.09654976427555084,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,123,hybrid_bottleneck_test_sample,channel_gate_mean,0.39524930715560913,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,123,hybrid_bottleneck_test_sample,channel_gate_std,0.38604629039764404,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,123,hybrid_bottleneck_test_sample,freq_init,NA,diagnostic value: random
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,123,hybrid_bottleneck_test_sample,depthwise_weight_mean,-0.013853217475116253,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,123,hybrid_bottleneck_test_sample,depthwise_weight_std,1.0005050897598267,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,2026,hybrid_bottleneck_test_sample,boundary_gate_mean,NA,diagnostic value: NA
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,2026,hybrid_bottleneck_test_sample,boundary_gate_std,NA,diagnostic value: NA
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,2026,hybrid_bottleneck_test_sample,speckle_gate_mean,0.017917200922966003,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,2026,hybrid_bottleneck_test_sample,speckle_gate_std,0.0003829313791356981,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,2026,hybrid_bottleneck_test_sample,suppression_ratio,0.9982513189315796,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,2026,hybrid_bottleneck_test_sample,combined_gate_mean,0.9982513189315796,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,2026,hybrid_bottleneck_test_sample,combined_gate_std,3.7371293728938326e-05,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,2026,hybrid_bottleneck_test_sample,local_high_descriptor_mean,0.12119211256504059,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,2026,hybrid_bottleneck_test_sample,local_variance_proxy_mean,NA,diagnostic value: NA
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,2026,hybrid_bottleneck_test_sample,multi_scale_consistency_mean,0.15719571709632874,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,2026,hybrid_bottleneck_test_sample,alpha_value,0.5274266004562378,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,2026,hybrid_bottleneck_test_sample,beta_value,0.09759518504142761,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,2026,hybrid_bottleneck_test_sample,channel_gate_mean,0.38161200284957886,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,2026,hybrid_bottleneck_test_sample,channel_gate_std,0.4095879793167114,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,2026,hybrid_bottleneck_test_sample,freq_init,NA,diagnostic value: random
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,2026,hybrid_bottleneck_test_sample,depthwise_weight_mean,0.025385752320289612,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar,v2d_no_boundary_keep_msc_no_local_var,2026,hybrid_bottleneck_test_sample,depthwise_weight_std,0.9997418522834778,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,42,hybrid_bottleneck_test_sample,boundary_gate_mean,1.0046120882034302,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,42,hybrid_bottleneck_test_sample,boundary_gate_std,0.01477046124637127,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,42,hybrid_bottleneck_test_sample,speckle_gate_mean,0.017903447151184082,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,42,hybrid_bottleneck_test_sample,speckle_gate_std,0.00022449235257226974,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,42,hybrid_bottleneck_test_sample,suppression_ratio,0.9982621669769287,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,42,hybrid_bottleneck_test_sample,combined_gate_mean,1.002866506576538,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,42,hybrid_bottleneck_test_sample,combined_gate_std,0.014763620682060719,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,42,hybrid_bottleneck_test_sample,local_high_descriptor_mean,0.11836221814155579,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,42,hybrid_bottleneck_test_sample,local_variance_proxy_mean,NA,diagnostic value: NA
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,42,hybrid_bottleneck_test_sample,multi_scale_consistency_mean,NA,diagnostic value: NA
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,42,hybrid_bottleneck_test_sample,alpha_value,0.533389151096344,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,42,hybrid_bottleneck_test_sample,beta_value,0.09706975519657135,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,42,hybrid_bottleneck_test_sample,channel_gate_mean,0.4226306080818176,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,42,hybrid_bottleneck_test_sample,channel_gate_std,0.3708778917789459,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,42,hybrid_bottleneck_test_sample,freq_init,NA,diagnostic value: random
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,42,hybrid_bottleneck_test_sample,depthwise_weight_mean,-0.0038700273726135492,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,42,hybrid_bottleneck_test_sample,depthwise_weight_std,0.9992967247962952,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,123,hybrid_bottleneck_test_sample,boundary_gate_mean,1.0061345100402832,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,123,hybrid_bottleneck_test_sample,boundary_gate_std,0.014696181751787663,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,123,hybrid_bottleneck_test_sample,speckle_gate_mean,0.01787722483277321,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,123,hybrid_bottleneck_test_sample,speckle_gate_std,0.0002594341058284044,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,123,hybrid_bottleneck_test_sample,suppression_ratio,0.9982555508613586,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,123,hybrid_bottleneck_test_sample,combined_gate_mean,1.0043797492980957,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,123,hybrid_bottleneck_test_sample,combined_gate_std,0.014693263918161392,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,123,hybrid_bottleneck_test_sample,local_high_descriptor_mean,0.11730314791202545,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,123,hybrid_bottleneck_test_sample,local_variance_proxy_mean,NA,diagnostic value: NA
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,123,hybrid_bottleneck_test_sample,multi_scale_consistency_mean,NA,diagnostic value: NA
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,123,hybrid_bottleneck_test_sample,alpha_value,0.5275828838348389,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,123,hybrid_bottleneck_test_sample,beta_value,0.09757872670888901,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,123,hybrid_bottleneck_test_sample,channel_gate_mean,0.38890090584754944,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,123,hybrid_bottleneck_test_sample,channel_gate_std,0.38349077105522156,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,123,hybrid_bottleneck_test_sample,freq_init,NA,diagnostic value: random
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,123,hybrid_bottleneck_test_sample,depthwise_weight_mean,-0.005191712640225887,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,123,hybrid_bottleneck_test_sample,depthwise_weight_std,0.9993513822555542,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,2026,hybrid_bottleneck_test_sample,boundary_gate_mean,1.0061187744140625,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,2026,hybrid_bottleneck_test_sample,boundary_gate_std,0.01586545817553997,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,2026,hybrid_bottleneck_test_sample,speckle_gate_mean,0.0178765207529068,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,2026,hybrid_bottleneck_test_sample,speckle_gate_std,0.00025209487648680806,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,2026,hybrid_bottleneck_test_sample,suppression_ratio,0.9982648491859436,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,2026,hybrid_bottleneck_test_sample,combined_gate_mean,1.00437331199646,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,2026,hybrid_bottleneck_test_sample,combined_gate_std,0.015859639272093773,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,2026,hybrid_bottleneck_test_sample,local_high_descriptor_mean,0.13341233134269714,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,2026,hybrid_bottleneck_test_sample,local_variance_proxy_mean,NA,diagnostic value: NA
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,2026,hybrid_bottleneck_test_sample,multi_scale_consistency_mean,NA,diagnostic value: NA
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,2026,hybrid_bottleneck_test_sample,alpha_value,0.5333206057548523,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,2026,hybrid_bottleneck_test_sample,beta_value,0.09706341475248337,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,2026,hybrid_bottleneck_test_sample,channel_gate_mean,0.41220760345458984,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,2026,hybrid_bottleneck_test_sample,channel_gate_std,0.41453877091407776,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,2026,hybrid_bottleneck_test_sample,freq_init,NA,diagnostic value: random
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,2026,hybrid_bottleneck_test_sample,depthwise_weight_mean,0.013947808183729649,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar,v2d_boundary_no_msc_no_local_var,2026,hybrid_bottleneck_test_sample,depthwise_weight_std,1.0031499862670898,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,boundary_gate_mean,1.0505881309509277,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,boundary_gate_std,0.05140526220202446,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,speckle_gate_mean,0.017453912645578384,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,speckle_gate_std,0.0005318834446370602,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,suppression_ratio,0.9984080791473389,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,combined_gate_mean,1.0489180088043213,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,combined_gate_std,0.05137079954147339,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,local_high_descriptor_mean,0.0781962126493454,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,local_variance_proxy_mean,NA,diagnostic value: NA
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,multi_scale_consistency_mean,0.09559129178524017,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,alpha_value,0.5967853665351868,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,beta_value,0.09120848774909973,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,channel_gate_mean,0.14872963726520538,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,channel_gate_std,0.2900277376174927,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,freq_init,NA,diagnostic value: laplacian
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,depthwise_weight_mean,0.04725058004260063,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,depthwise_weight_std,0.18739892542362213,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,boundary_gate_mean,1.0336813926696777,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,boundary_gate_std,0.05790407583117485,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,speckle_gate_mean,0.017528396099805832,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,speckle_gate_std,0.0006256348569877446,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,suppression_ratio,0.9984120726585388,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,combined_gate_mean,1.0320429801940918,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,combined_gate_std,0.05787224695086479,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,local_high_descriptor_mean,0.08318646252155304,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,local_variance_proxy_mean,NA,diagnostic value: NA
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,multi_scale_consistency_mean,0.0972038060426712,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,alpha_value,0.6024332642555237,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,beta_value,0.09059227257966995,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,channel_gate_mean,0.18917183578014374,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,channel_gate_std,0.35931384563446045,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,freq_init,NA,diagnostic value: laplacian
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,depthwise_weight_mean,0.04805321246385574,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,depthwise_weight_std,0.18826232850551605,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,boundary_gate_mean,1.0450108051300049,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,boundary_gate_std,0.050026312470436096,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,speckle_gate_mean,0.017458267509937286,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,speckle_gate_std,0.0005962584400549531,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,suppression_ratio,0.9984403848648071,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,combined_gate_mean,1.0433833599090576,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,combined_gate_std,0.05000295117497444,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,local_high_descriptor_mean,0.07792112976312637,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,local_variance_proxy_mean,NA,diagnostic value: NA
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,multi_scale_consistency_mean,0.09730695188045502,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,alpha_value,0.6216424703598022,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,beta_value,0.08933708816766739,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,channel_gate_mean,0.20157673954963684,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,channel_gate_std,0.3616120219230652,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,freq_init,NA,diagnostic value: laplacian
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,depthwise_weight_mean,0.04915757477283478,diagnostics from first deterministic test batch
+U-Net + V2d-noLocalVar-Laplacian,v2d_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,depthwise_weight_std,0.1883336901664734,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,boundary_gate_mean,NA,diagnostic value: NA
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,boundary_gate_std,NA,diagnostic value: NA
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,speckle_gate_mean,0.017455831170082092,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,speckle_gate_std,0.0005521982093341649,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,suppression_ratio,0.9983888864517212,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,combined_gate_mean,0.9983888864517212,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,combined_gate_std,5.096755558042787e-05,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,local_high_descriptor_mean,0.08883633464574814,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,local_variance_proxy_mean,NA,diagnostic value: NA
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,multi_scale_consistency_mean,0.11079813539981842,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,alpha_value,0.5820499062538147,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,beta_value,0.0922994390130043,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,channel_gate_mean,0.1646779477596283,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,channel_gate_std,0.33359241485595703,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,freq_init,NA,diagnostic value: laplacian
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,depthwise_weight_mean,0.044592101126909256,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,depthwise_weight_std,0.1881648749113083,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,boundary_gate_mean,NA,diagnostic value: NA
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,boundary_gate_std,NA,diagnostic value: NA
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,speckle_gate_mean,0.017379863187670708,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,speckle_gate_std,0.0006366448360495269,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,suppression_ratio,0.9984830617904663,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,combined_gate_mean,0.9984830617904663,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,combined_gate_std,5.556795440497808e-05,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,local_high_descriptor_mean,0.08776825666427612,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,local_variance_proxy_mean,NA,diagnostic value: NA
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,multi_scale_consistency_mean,0.10316461324691772,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,alpha_value,0.6447989344596863,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,beta_value,0.08728255331516266,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,channel_gate_mean,0.183903306722641,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,channel_gate_std,0.3246402144432068,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,freq_init,NA,diagnostic value: laplacian
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,depthwise_weight_mean,0.046473968774080276,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,depthwise_weight_std,0.1894371211528778,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,boundary_gate_mean,NA,diagnostic value: NA
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,boundary_gate_std,NA,diagnostic value: NA
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,speckle_gate_mean,0.017463747411966324,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,speckle_gate_std,0.0006201217183843255,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,suppression_ratio,0.9984302520751953,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,combined_gate_mean,0.9984302520751953,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,combined_gate_std,5.5739659728715196e-05,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,local_high_descriptor_mean,0.09261910617351532,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,local_variance_proxy_mean,NA,diagnostic value: NA
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,multi_scale_consistency_mean,0.10803651064634323,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,alpha_value,0.6149763464927673,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,beta_value,0.08988279849290848,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,channel_gate_mean,0.20710822939872742,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,channel_gate_std,0.359645277261734,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,freq_init,NA,diagnostic value: laplacian
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,depthwise_weight_mean,0.045706022530794144,diagnostics from first deterministic test batch
+U-Net + V2d-noBoundaryKeepMSC-noLocalVar-Laplacian,v2d_no_boundary_keep_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,depthwise_weight_std,0.18855775892734528,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,boundary_gate_mean,1.0327484607696533,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,boundary_gate_std,0.03656981512904167,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,speckle_gate_mean,0.017559213563799858,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,speckle_gate_std,0.0004512975865509361,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,suppression_ratio,0.9984017610549927,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,combined_gate_mean,1.0310993194580078,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,combined_gate_std,0.03655015677213669,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,local_high_descriptor_mean,0.08427267521619797,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,local_variance_proxy_mean,NA,diagnostic value: NA
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,multi_scale_consistency_mean,NA,diagnostic value: NA
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,alpha_value,0.5994857549667358,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,beta_value,0.09101925790309906,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,channel_gate_mean,0.20638802647590637,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,channel_gate_std,0.33931922912597656,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,freq_init,NA,diagnostic value: laplacian
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,depthwise_weight_mean,0.03584015369415283,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,42,hybrid_bottleneck_test_sample,depthwise_weight_std,0.18850447237491608,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,boundary_gate_mean,1.0220210552215576,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,boundary_gate_std,0.03560574725270271,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,speckle_gate_mean,0.017575042322278023,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,speckle_gate_std,0.00045301669160835445,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,suppression_ratio,0.998389482498169,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,combined_gate_mean,1.020376443862915,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,combined_gate_std,0.03558851778507233,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,local_high_descriptor_mean,0.0987916886806488,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,local_variance_proxy_mean,NA,diagnostic value: NA
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,multi_scale_consistency_mean,NA,diagnostic value: NA
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,alpha_value,0.588625431060791,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,beta_value,0.09163729846477509,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,channel_gate_mean,0.12516555190086365,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,channel_gate_std,0.2897016704082489,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,freq_init,NA,diagnostic value: laplacian
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,depthwise_weight_mean,0.04561609402298927,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,123,hybrid_bottleneck_test_sample,depthwise_weight_std,0.18795907497406006,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,boundary_gate_mean,1.03757643699646,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,boundary_gate_std,0.03164529800415039,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,speckle_gate_mean,0.01750044710934162,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,speckle_gate_std,0.000445626734290272,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,suppression_ratio,0.9984439015388489,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,combined_gate_mean,1.0359630584716797,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,combined_gate_std,0.03163456544280052,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,local_high_descriptor_mean,0.07606647908687592,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,local_variance_proxy_mean,NA,diagnostic value: NA
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,multi_scale_consistency_mean,NA,diagnostic value: NA
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,alpha_value,0.6274718642234802,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,beta_value,0.08891735225915909,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,channel_gate_mean,0.1837691366672516,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,channel_gate_std,0.3590438663959503,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,freq_init,NA,diagnostic value: laplacian
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,depthwise_weight_mean,0.05249965563416481,diagnostics from first deterministic test batch
+U-Net + V2d-BoundaryNoMSC-noLocalVar-Laplacian,v2d_boundary_no_msc_no_local_var_laplacian,2026,hybrid_bottleneck_test_sample,depthwise_weight_std,0.18792003393173218,diagnostics from first deterministic test batch
